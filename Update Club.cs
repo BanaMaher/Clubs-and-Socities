@@ -17,6 +17,22 @@ namespace testing
             InitializeComponent();
         }
 
-     
+        private void txtUDNameClub_Enter(object sender, EventArgs e)
+        {
+            if(txtUDNameClub.Text == "Enter Club Name")
+            {
+                txtUDNameClub.Text = "";
+                txtUDNameClub.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtUDNameClub_Leave(object sender, EventArgs e)
+        {
+            if (txtUDNameClub.Text == "")
+            {
+                txtUDNameClub.Text = "Enter Club Name";
+                txtUDNameClub.ForeColor = Color.Silver;
+            }
+        }
     }
 }

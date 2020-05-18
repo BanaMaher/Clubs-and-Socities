@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Club_Representative
 {
-    public partial class Form2 : Form
+    public partial class Search : Form
     {
-        public Form2()
+        public Search()
         {
             InitializeComponent();
         }

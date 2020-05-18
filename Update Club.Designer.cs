@@ -114,7 +114,7 @@
             this.cmbUDSelectionClub.Name = "cmbUDSelectionClub";
             this.cmbUDSelectionClub.Size = new System.Drawing.Size(357, 33);
             this.cmbUDSelectionClub.TabIndex = 6;
-            this.cmbUDSelectionClub.Text = "Select Club from list";
+            this.cmbUDSelectionClub.Text = "-Select Club";
             // 
             // btnUDSelectClub
             // 
@@ -129,11 +129,14 @@
             // txtUDNameClub
             // 
             this.txtUDNameClub.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUDNameClub.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtUDNameClub.Location = new System.Drawing.Point(36, 154);
             this.txtUDNameClub.Name = "txtUDNameClub";
             this.txtUDNameClub.Size = new System.Drawing.Size(452, 30);
             this.txtUDNameClub.TabIndex = 8;
             this.txtUDNameClub.Text = "Enter Club Name";
+            this.txtUDNameClub.Enter += new System.EventHandler(this.txtUDNameClub_Enter);
+            this.txtUDNameClub.Leave += new System.EventHandler(this.txtUDNameClub_Leave);
             // 
             // txtUDPresName
             // 

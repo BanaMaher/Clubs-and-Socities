@@ -24,7 +24,6 @@ C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocitie
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\testing.Register_Club.resources
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\testing.report_activities.resources
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\testing.report_on_clubs.resources
-C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\Club_Representative.Form2.resources
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\testing.Update_Club.resources
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\Club_Representative.Form1.resources
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\Club_Representative.Update_s_Clubs_Description.resources
@@ -32,3 +31,4 @@ C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocitie
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\Clubandsocities2.csproj.CoreCompileInputs.cache
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\testing.exe
 C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\testing.pdb
+C:\Users\bana maher\Downloads\University_Modules\Sem_2\IOOP - C#\ClubsAndSocities Group Assignment\obj\Debug\Club_Representative.Search.resources

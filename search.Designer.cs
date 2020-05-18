@@ -1,6 +1,6 @@
 ﻿namespace Club_Representative
 {
-    partial class Form2
+    partial class Search
     {
         /// <summary>
         /// Required designer variable.
@@ -105,7 +105,7 @@
             this.ClubDescription.Name = "ClubDescription";
             this.ClubDescription.Width = 125;
             // 
-            // Form2
+            // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,7 +115,7 @@
             this.Controls.Add(this.lstOfClubName);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Name = "Search";
             this.Text = "Search";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

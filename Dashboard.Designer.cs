@@ -56,7 +56,7 @@
             this.reportToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(880, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(880, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -70,7 +70,7 @@
             this.reportActivitiesToolStripMenuItem,
             this.reportOnClubsToolStripMenuItem});
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 26);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // registerClubToolStripMenuItem
@@ -85,30 +85,35 @@
             this.searchClubToolStripMenuItem.Name = "searchClubToolStripMenuItem";
             this.searchClubToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.searchClubToolStripMenuItem.Text = "Search Club";
+            this.searchClubToolStripMenuItem.Click += new System.EventHandler(this.searchClubToolStripMenuItem_Click);
             // 
             // updateClubToolStripMenuItem
             // 
             this.updateClubToolStripMenuItem.Name = "updateClubToolStripMenuItem";
             this.updateClubToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.updateClubToolStripMenuItem.Text = "Update Club";
+            this.updateClubToolStripMenuItem.Click += new System.EventHandler(this.updateClubToolStripMenuItem_Click);
             // 
             // deregisterClubToolStripMenuItem
             // 
             this.deregisterClubToolStripMenuItem.Name = "deregisterClubToolStripMenuItem";
             this.deregisterClubToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.deregisterClubToolStripMenuItem.Text = "Deregister Club";
+            this.deregisterClubToolStripMenuItem.Click += new System.EventHandler(this.deregisterClubToolStripMenuItem_Click);
             // 
             // reportActivitiesToolStripMenuItem
             // 
             this.reportActivitiesToolStripMenuItem.Name = "reportActivitiesToolStripMenuItem";
             this.reportActivitiesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.reportActivitiesToolStripMenuItem.Text = "Report Activities";
+            this.reportActivitiesToolStripMenuItem.Click += new System.EventHandler(this.reportActivitiesToolStripMenuItem_Click);
             // 
             // reportOnClubsToolStripMenuItem
             // 
             this.reportOnClubsToolStripMenuItem.Name = "reportOnClubsToolStripMenuItem";
             this.reportOnClubsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.reportOnClubsToolStripMenuItem.Text = "Report on Clubs";
+            this.reportOnClubsToolStripMenuItem.Click += new System.EventHandler(this.reportOnClubsToolStripMenuItem_Click);
             // 
             // clubRepresentitiveToolStripMenuItem
             // 
@@ -116,7 +121,7 @@
             this.updateClubsDescriptionToolStripMenuItem,
             this.updateWeeklyActivitiesToolStripMenuItem});
             this.clubRepresentitiveToolStripMenuItem.Name = "clubRepresentitiveToolStripMenuItem";
-            this.clubRepresentitiveToolStripMenuItem.Size = new System.Drawing.Size(151, 26);
+            this.clubRepresentitiveToolStripMenuItem.Size = new System.Drawing.Size(151, 24);
             this.clubRepresentitiveToolStripMenuItem.Text = "Club Representitive";
             // 
             // updateClubsDescriptionToolStripMenuItem
@@ -136,19 +141,19 @@
             this.studentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.searchClubToolStripMenuItem1});
             this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
-            this.studentToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
+            this.studentToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.studentToolStripMenuItem.Text = "Student";
             // 
             // searchClubToolStripMenuItem1
             // 
             this.searchClubToolStripMenuItem1.Name = "searchClubToolStripMenuItem1";
-            this.searchClubToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.searchClubToolStripMenuItem1.Size = new System.Drawing.Size(170, 26);
             this.searchClubToolStripMenuItem1.Text = "Search Club";
             // 
             // reportToolStripMenuItem
             // 
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(14, 26);
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(14, 24);
             // 
             // Dashboard
             // 

@@ -17,5 +17,9 @@ namespace testing
             InitializeComponent();
         }
 
+        private void Register_Club_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -233,6 +233,7 @@
             this.Name = "Register_Club";
             this.Text = "Register_Club";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Register_Club_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
