@@ -65,6 +65,6 @@ namespace testing
             frmChildAdminReportclub = new report_on_clubs();
             frmChildAdminReportclub.MdiParent = this;
             frmChildAdminReportclub.Show();
-        }
+        }  /* Test */
     }
 }
