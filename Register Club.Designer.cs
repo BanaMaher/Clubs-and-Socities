@@ -31,7 +31,6 @@
             this.btnSubmitForm = new System.Windows.Forms.Button();
             this.txtRGSecertaryName = new System.Windows.Forms.TextBox();
             this.txtRGVicePresidentName = new System.Windows.Forms.TextBox();
-            this.txtRGPresidentName = new System.Windows.Forms.TextBox();
             this.txtRGClubName = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -45,6 +44,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtRGNewUser = new System.Windows.Forms.TextBox();
             this.txtRGNewPass = new System.Windows.Forms.TextBox();
+            this.txtRGPresidentName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnSubmitForm
@@ -74,15 +74,6 @@
             this.txtRGVicePresidentName.Size = new System.Drawing.Size(362, 32);
             this.txtRGVicePresidentName.TabIndex = 20;
             this.txtRGVicePresidentName.Text = "Enter the name of the vice president";
-            // 
-            // txtRGPresidentName
-            // 
-            this.txtRGPresidentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRGPresidentName.Location = new System.Drawing.Point(319, 94);
-            this.txtRGPresidentName.Name = "txtRGPresidentName";
-            this.txtRGPresidentName.Size = new System.Drawing.Size(362, 32);
-            this.txtRGPresidentName.TabIndex = 19;
-            this.txtRGPresidentName.Text = "Enter the name of the President";
             // 
             // txtRGClubName
             // 
@@ -208,6 +199,15 @@
             this.txtRGNewPass.TabIndex = 30;
             this.txtRGNewPass.Text = "New Password";
             // 
+            // txtRGPresidentName
+            // 
+            this.txtRGPresidentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRGPresidentName.Location = new System.Drawing.Point(319, 94);
+            this.txtRGPresidentName.Name = "txtRGPresidentName";
+            this.txtRGPresidentName.Size = new System.Drawing.Size(362, 32);
+            this.txtRGPresidentName.TabIndex = 19;
+            this.txtRGPresidentName.Text = "Enter the name of the President";
+            // 
             // Register_Club
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -243,7 +243,6 @@
         private System.Windows.Forms.Button btnSubmitForm;
         private System.Windows.Forms.TextBox txtRGSecertaryName;
         private System.Windows.Forms.TextBox txtRGVicePresidentName;
-        private System.Windows.Forms.TextBox txtRGPresidentName;
         private System.Windows.Forms.TextBox txtRGClubName;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -257,5 +256,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtRGNewUser;
         private System.Windows.Forms.TextBox txtRGNewPass;
+        private System.Windows.Forms.TextBox txtRGPresidentName;
     }
 }

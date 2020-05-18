@@ -24,6 +24,7 @@ namespace testing
             frmChild = new Register_Club();
             frmChild.MdiParent = this; //the frmchild is refering to the Register_Club and MdiParent is holding the frmChild to (this) Dashboard
             frmChild.Show();
+
         }
 
        
