@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Club_Representative
 {
-    public partial class Form1 : Form
+    public partial class Update_Weekly_Activities : Form
     {
-        public Form1()
+        public Update_Weekly_Activities()
         {
             InitializeComponent();
         }

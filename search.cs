@@ -26,5 +26,10 @@ namespace Club_Representative
         {
 
         }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

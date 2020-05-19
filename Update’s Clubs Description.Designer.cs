@@ -1,6 +1,6 @@
 ﻿namespace Club_Representative
 {
-    partial class Update_s_Clubs_Description
+    partial class Update_Clubs_Description
     {
         /// <summary>
         /// Required designer variable.
@@ -161,7 +161,7 @@
             this.btnUpdateDes.Text = "Update Description";
             this.btnUpdateDes.UseVisualStyleBackColor = true;
             // 
-            // Update_s_Clubs_Description
+            // Update_Clubs_Description
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -179,8 +179,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Update_s_Clubs_Description";
-            this.Text = "Update_s_Clubs_Description";
+            this.Name = "Update_Clubs_Description";
+            this.Text = "Update Clubs Description";
             this.ResumeLayout(false);
             this.PerformLayout();
 

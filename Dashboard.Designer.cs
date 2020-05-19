@@ -76,42 +76,42 @@
             // registerClubToolStripMenuItem
             // 
             this.registerClubToolStripMenuItem.Name = "registerClubToolStripMenuItem";
-            this.registerClubToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.registerClubToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.registerClubToolStripMenuItem.Text = "Register Club";
             this.registerClubToolStripMenuItem.Click += new System.EventHandler(this.registerClubToolStripMenuItem_Click);
             // 
             // searchClubToolStripMenuItem
             // 
             this.searchClubToolStripMenuItem.Name = "searchClubToolStripMenuItem";
-            this.searchClubToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.searchClubToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.searchClubToolStripMenuItem.Text = "Search Club";
             this.searchClubToolStripMenuItem.Click += new System.EventHandler(this.searchClubToolStripMenuItem_Click);
             // 
             // updateClubToolStripMenuItem
             // 
             this.updateClubToolStripMenuItem.Name = "updateClubToolStripMenuItem";
-            this.updateClubToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.updateClubToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.updateClubToolStripMenuItem.Text = "Update Club";
             this.updateClubToolStripMenuItem.Click += new System.EventHandler(this.updateClubToolStripMenuItem_Click);
             // 
             // deregisterClubToolStripMenuItem
             // 
             this.deregisterClubToolStripMenuItem.Name = "deregisterClubToolStripMenuItem";
-            this.deregisterClubToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.deregisterClubToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.deregisterClubToolStripMenuItem.Text = "Deregister Club";
             this.deregisterClubToolStripMenuItem.Click += new System.EventHandler(this.deregisterClubToolStripMenuItem_Click);
             // 
             // reportActivitiesToolStripMenuItem
             // 
             this.reportActivitiesToolStripMenuItem.Name = "reportActivitiesToolStripMenuItem";
-            this.reportActivitiesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.reportActivitiesToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.reportActivitiesToolStripMenuItem.Text = "Report Activities";
             this.reportActivitiesToolStripMenuItem.Click += new System.EventHandler(this.reportActivitiesToolStripMenuItem_Click);
             // 
             // reportOnClubsToolStripMenuItem
             // 
             this.reportOnClubsToolStripMenuItem.Name = "reportOnClubsToolStripMenuItem";
-            this.reportOnClubsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.reportOnClubsToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.reportOnClubsToolStripMenuItem.Text = "Report on Clubs";
             this.reportOnClubsToolStripMenuItem.Click += new System.EventHandler(this.reportOnClubsToolStripMenuItem_Click);
             // 
@@ -129,12 +129,14 @@
             this.updateClubsDescriptionToolStripMenuItem.Name = "updateClubsDescriptionToolStripMenuItem";
             this.updateClubsDescriptionToolStripMenuItem.Size = new System.Drawing.Size(264, 26);
             this.updateClubsDescriptionToolStripMenuItem.Text = "Update Club\'s Description";
+            this.updateClubsDescriptionToolStripMenuItem.Click += new System.EventHandler(this.updateClubsDescriptionToolStripMenuItem_Click);
             // 
             // updateWeeklyActivitiesToolStripMenuItem
             // 
             this.updateWeeklyActivitiesToolStripMenuItem.Name = "updateWeeklyActivitiesToolStripMenuItem";
             this.updateWeeklyActivitiesToolStripMenuItem.Size = new System.Drawing.Size(264, 26);
             this.updateWeeklyActivitiesToolStripMenuItem.Text = "Update Weekly Activities";
+            this.updateWeeklyActivitiesToolStripMenuItem.Click += new System.EventHandler(this.updateWeeklyActivitiesToolStripMenuItem_Click);
             // 
             // studentToolStripMenuItem
             // 

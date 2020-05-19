@@ -19,6 +19,9 @@ namespace testing
         Deregister_Club frmChildAdminDeregister;
         report_activities frmChildAdminReprtactivities;
         report_on_clubs frmChildAdminReportclub;
+        Update_Weekly_Activities frmChildRepUDWeeklyActivities;
+        Update_Clubs_Description frmChildRepUDCLubsDescription; 
+
         public Dashboard()
         {
             
@@ -66,5 +69,19 @@ namespace testing
             frmChildAdminReportclub.MdiParent = this;
             frmChildAdminReportclub.Show();
         }  /* Test */
+
+        private void updateWeeklyActivitiesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmChildRepUDWeeklyActivities = new Update_Weekly_Activities();
+            frmChildRepUDWeeklyActivities.MdiParent = this;
+            frmChildRepUDWeeklyActivities.Show();
+        }
+
+        private void updateClubsDescriptionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmChildRepUDCLubsDescription = new Update_Clubs_Description();
+            frmChildRepUDCLubsDescription.MdiParent = this;
+            frmChildRepUDCLubsDescription.Show();
+        }
     }
 }

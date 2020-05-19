@@ -1,6 +1,6 @@
 ﻿namespace Club_Representative
 {
-    partial class Form1
+    partial class Update_Weekly_Activities
     {
         /// <summary>
         /// Required designer variable.
@@ -89,7 +89,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // Update_Weekly_Activities
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,8 +101,8 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Update_Weekly_Activities";
+            this.Text = "Update Weekly Activities";
             this.ResumeLayout(false);
             this.PerformLayout();
 
