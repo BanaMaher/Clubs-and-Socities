@@ -149,8 +149,9 @@
             // searchClubToolStripMenuItem1
             // 
             this.searchClubToolStripMenuItem1.Name = "searchClubToolStripMenuItem1";
-            this.searchClubToolStripMenuItem1.Size = new System.Drawing.Size(170, 26);
+            this.searchClubToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.searchClubToolStripMenuItem1.Text = "Search Club";
+            this.searchClubToolStripMenuItem1.Click += new System.EventHandler(this.searchClubToolStripMenuItem1_Click);
             // 
             // reportToolStripMenuItem
             // 

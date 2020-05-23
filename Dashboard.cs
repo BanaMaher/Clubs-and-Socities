@@ -70,6 +70,8 @@ namespace testing
             frmChildAdminReportclub.Show();
         }  /* Test */
 
+
+
         private void updateWeeklyActivitiesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmChildRepUDWeeklyActivities = new Update_Weekly_Activities();
@@ -82,6 +84,13 @@ namespace testing
             frmChildRepUDCLubsDescription = new Update_Clubs_Description();
             frmChildRepUDCLubsDescription.MdiParent = this;
             frmChildRepUDCLubsDescription.Show();
+        }
+
+        private void searchClubToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmChildAdminSearch = new Search();
+            frmChildAdminSearch.MdiParent = this;
+            frmChildAdminSearch.Show();
         }
     }
 }
